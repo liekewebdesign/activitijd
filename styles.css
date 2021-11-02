@@ -51,7 +51,7 @@ p {
 
 /* Hero Section */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/klok-hero-activitijd.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("klok-hero-activitijd.jpg");
   height: 350px;
   transform: rotate(0);
   background-position: center;
