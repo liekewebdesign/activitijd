@@ -1,0 +1,237 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h4 {
+  margin-bottom: 0.75rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+#title {
+  background-color: #4A3333;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.navbar-brand {
+  color: lightgrey;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 100;
+  color: lightgrey;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+/* Hero Section */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/klok-hero-activitijd.jpg");
+  height: 350px;
+  transform: rotate(0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: lightgrey;
+}
+
+/* Info Section */
+#info {
+  background-color: white;
+  padding: 5% 12%;
+  text-align: left;
+}
+
+.info-text {
+  padding-right: 3%;
+}
+
+.info-heading {
+  padding-bottom: 1rem;
+}
+
+.info-image {
+  text-align: center;
+  position: relative;
+}
+
+.image-plus-underscript {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+}
+
+.action-pic {
+  width: 80%;
+  border-radius: 10%;
+}
+
+.photo-underscript {
+  font-size: 0.75rem;
+}
+
+/* Introduction Section */
+#introduction {
+  background-color: #98D083;
+  padding: 5% 12%;
+}
+
+.intro-text-block {
+  text-align: left;
+  color: #4A3333;
+  padding-left: 3%;
+}
+
+.intro-heading {
+  padding-bottom: 1rem;
+}
+
+.intro-text {
+  color: #4A3333;
+}
+
+.intro-photo {
+  position: relative;
+}
+
+.photo-astrid {
+  width: 85%;
+  border-radius: 10%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+}
+
+/* Pricing Section */
+#pricing {
+  background-color: white;
+  padding: 5% 12%;
+  color: #4A3333;
+}
+
+.price-block {
+  text-align: center;
+}
+
+.availabilty-block {
+  text-align: center;
+}
+
+.pricing-icon {
+  margin: 3% auto 5%;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #4A3333;
+  color: lightgrey;
+  padding: 5% 12%;
+}
+
+.contact-heading {
+  padding-bottom: 1rem;
+}
+
+.contact-text {
+  width: 60%;
+  margin: auto;
+  color: lightgrey;
+}
+
+/* Footer Section */
+#footer {
+  background-color: white;
+  padding: 3% 12% 2%;
+  color: #4A3333;
+}
+
+.socials {
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+  color: #4A3333;
+  padding: 10px;
+}
+
+
+@media (max-width: 1000px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  .hero-image {
+    height: 250px;
+  }
+
+  .info-heading {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .info-image {
+    text-align: center;
+  }
+
+  .image-plus-underscript {
+    position: relative;
+    width: 70%;
+  }
+
+  .intro-heading {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .photo-astrid {
+    position: relative;
+    width: 60%;
+  }
+
+  .contact-text {
+    width: 75%;
+  }
+}
